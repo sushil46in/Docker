@@ -7,5 +7,10 @@ stages:
       tag: sushil46in/testing:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
       registry: index.docker.io
+  when:
+    event:
+      include:
+      - push
 timeout: 60
+branch: {}
 notification: {}
