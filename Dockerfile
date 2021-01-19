@@ -1,2 +1,2 @@
 FROM sushil46in/demo
-CMD ["/hello"]
+CMD ["/hello1"]
