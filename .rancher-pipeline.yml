@@ -12,5 +12,7 @@ stages:
       include:
       - push
 timeout: 60
-branch: {}
+branch:
+  include:
+  - master
 notification: {}
